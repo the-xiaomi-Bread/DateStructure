@@ -58,7 +58,6 @@ void STPop(ST* pst)
 	if (pst->top == 1)
 	{
 		pst->a = NULL;
-		pst->top = 0;
 	}
 
 	pst->top--;
